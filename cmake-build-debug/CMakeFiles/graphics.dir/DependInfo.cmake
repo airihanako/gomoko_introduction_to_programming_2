@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/board.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/board.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/button.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/button.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/checkbox.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/gamescreen.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/graphics.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/graphics.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/textbox.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/titlescreen.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/titlescreen.cpp.obj"
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/widget.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/board.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/board.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/button.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/button.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/checkbox.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/checkbox.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/gamescreen.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/gamescreen.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/graphics.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/graphics.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/textbox.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/textbox.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/titlescreen.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/titlescreen.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/widget.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/widget.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

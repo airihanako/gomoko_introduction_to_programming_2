@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/main.cpp" "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/main.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/untitled.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -15,7 +15,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/DependInfo.cmake"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -1,4 +1,4 @@
-C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/untitled.dir
-C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir
-C:/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/untitled.dir
+C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir
+C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

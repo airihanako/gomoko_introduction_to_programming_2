@@ -54,19 +54,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\hatva\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\hatva\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko
+CMAKE_SOURCE_DIR = C:\Users\Airi\Documents\1MA2\Progok\gomi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -95,14 +95,14 @@ clean: CMakeFiles/graphics.dir/clean
 CMakeFiles/untitled.dir/all: CMakeFiles/graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled.dir\build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles 11
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles 11
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/untitled.dir/rule
 
 # Convenience name for target.
@@ -122,14 +122,14 @@ CMakeFiles/untitled.dir/clean:
 CMakeFiles/graphics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target graphics"
 .PHONY : CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/graphics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/graphics.dir/rule
 
 # Convenience name for target.
