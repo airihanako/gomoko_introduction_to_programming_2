@@ -9,7 +9,7 @@ CheckBox::CheckBox(int x, int y, int sx, int sy) : Widget(x, y, sx, sy) {
 
 void CheckBox::draw() {
     int colour = 150;
-    gout << color(255,255,colour-255) << move_to(_x, _y) << box(_sx, _sy);
+    gout << color(65,65,130) << move_to(_x, _y) << box(_sx, _sy);
     gout << color(0,0,0) << move_to(_x + 2, _y + 2) << box(_sx -4, _sy - 4);
     if(_checked){
         gout << color(r,g,b);
@@ -33,8 +33,8 @@ void CheckBox::check(bool player) {
         g = 255;
         b = 255;
     } else{
-        r = 255;
-        g = 105;
-        b = 180;
+        r = 222;
+        g = 78;
+        b = 106;
     }
 }
