@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/graphics.dir/checkbox.cpp.o"
   "CMakeFiles/graphics.dir/graphics.cpp.o"
   "CMakeFiles/graphics.dir/textbox.cpp.o"
+  "CMakeFiles/graphics.dir/titlescreen.cpp.o"
   "CMakeFiles/graphics.dir/widget.cpp.o"
   "libgraphics.a"
   "libgraphics.pdb"

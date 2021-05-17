@@ -153,6 +153,12 @@
 		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.hpp">
 			<Option target="graphics"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/titlescreen.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/titlescreen.hpp">
+			<Option target="graphics"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp">
 			<Option target="graphics"/>
 		</Unit>

@@ -291,6 +291,33 @@ textbox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/textbox.cpp.s
 .PHONY : textbox.cpp.s
 
+titlescreen.o: titlescreen.cpp.o
+
+.PHONY : titlescreen.o
+
+# target to build an object file
+titlescreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/titlescreen.cpp.o
+.PHONY : titlescreen.cpp.o
+
+titlescreen.i: titlescreen.cpp.i
+
+.PHONY : titlescreen.i
+
+# target to preprocess a source file
+titlescreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/titlescreen.cpp.i
+.PHONY : titlescreen.cpp.i
+
+titlescreen.s: titlescreen.cpp.s
+
+.PHONY : titlescreen.s
+
+# target to generate assembly for a file
+titlescreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/titlescreen.cpp.s
+.PHONY : titlescreen.cpp.s
+
 widget.o: widget.cpp.o
 
 .PHONY : widget.o
@@ -343,6 +370,9 @@ help:
 	@echo "... textbox.o"
 	@echo "... textbox.i"
 	@echo "... textbox.s"
+	@echo "... titlescreen.o"
+	@echo "... titlescreen.i"
+	@echo "... titlescreen.s"
 	@echo "... widget.o"
 	@echo "... widget.i"
 	@echo "... widget.s"

@@ -71,6 +71,13 @@ CMakeFiles/graphics.dir/textbox.cpp.o: ../textbox.cpp
 CMakeFiles/graphics.dir/textbox.cpp.o: ../textbox.hpp
 CMakeFiles/graphics.dir/textbox.cpp.o: ../widget.hpp
 
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../button.hpp
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../graphics.hpp
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../textbox.hpp
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../titlescreen.cpp
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../titlescreen.hpp
+CMakeFiles/graphics.dir/titlescreen.cpp.o: ../widget.hpp
+
 CMakeFiles/graphics.dir/widget.cpp.o: ../graphics.hpp
 CMakeFiles/graphics.dir/widget.cpp.o: ../widget.cpp
 CMakeFiles/graphics.dir/widget.cpp.o: ../widget.hpp
