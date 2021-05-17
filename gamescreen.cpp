@@ -14,8 +14,7 @@ void GameScreen::draw() {
 void GameScreen::handle(genv::event ev) {
     turnText.handle(ev);
     turnAnnounceText.handle(ev);
-    board.handle(ev, player);
-    if(ev.button == btn_left){
+    if(ev.button == btn_left && board.handle(ev, player)){
         player = !player;
         if (player){
             turnText._text = "White";

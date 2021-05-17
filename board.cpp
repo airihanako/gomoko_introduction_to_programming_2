@@ -18,10 +18,14 @@ void Board::draw() {
     }
 }
 
-void Board::handle(genv::event ev, bool player) {
+bool Board::handle(genv::event ev, bool player) {
+    bool invalid = false;
     for (int i = 0; i < 15; i++) {
         for (int j = 0; j < 15; j++) {
-            grid.at(i).at(j).handle(ev, player);
+            if(grid.at(i).at(j).handle(ev, player)){
+                invalid = true;
+            }
         }
     }
+    return invalid;
 }
