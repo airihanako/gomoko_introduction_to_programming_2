@@ -1,6 +1,7 @@
 #ifndef UNTITLED_WIDGET_HPP
 #define UNTITLED_WIDGET_HPP
 
+
 struct Widget{
     int _x;
     int _y;

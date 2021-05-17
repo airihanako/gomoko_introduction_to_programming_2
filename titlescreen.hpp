@@ -1,10 +1,10 @@
 #ifndef UNTITLED_TITLESCREEN_HPP
 #define UNTITLED_TITLESCREEN_HPP
-#include "widget.hpp"
+
 #include "textbox.hpp"
 #include "button.hpp"
 
-struct TitleScreen : Widget{
+struct TitleScreen : public Widget{
     TitleScreen(int x, int y, int sx, int sy);
 
     TextBox gameTitle =  TextBox(int(_sx/2 + 50), int(_sy*0.3), 50, 100, "Gomoku game");
@@ -14,7 +14,7 @@ struct TitleScreen : Widget{
 
     void draw() override;
 
-    void handle(genv::event ev) override;
+    void handle(genv::event ev);
 
 };
 
