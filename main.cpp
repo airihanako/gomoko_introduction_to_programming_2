@@ -11,7 +11,6 @@ int main()
     gout.open(400,400);
     auto* mainScreen = new TitleScreen(0,0,400,400);
     auto* gameScreen = new GameScreen(0,0,400,400);
-    gout << text("hello world") << refresh;
     event ev;
     while(gin >> ev) {
         if (mainScreen->playing){

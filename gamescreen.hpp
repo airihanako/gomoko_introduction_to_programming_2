@@ -3,12 +3,14 @@
 
 #include "textbox.hpp"
 #include "checkbox.hpp"
+#include "board.hpp"
 
 struct GameScreen : Widget{
     GameScreen(int x, int y, int sx, int sy);
 
     TextBox turnText = TextBox(0,0,100,50,"White");
     TextBox turnAnnounceText = TextBox(150,0,250,100,"'s turn");
+    Board board = Board(0,50,400,350);
 
 
     void draw() override;

@@ -18,6 +18,7 @@ CMakeFiles/graphics.dir/checkbox.cpp.obj: ../checkbox.hpp
 CMakeFiles/graphics.dir/checkbox.cpp.obj: ../graphics.hpp
 CMakeFiles/graphics.dir/checkbox.cpp.obj: ../widget.hpp
 
+CMakeFiles/graphics.dir/gamescreen.cpp.obj: ../board.hpp
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: ../checkbox.hpp
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: ../gamescreen.cpp
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: ../gamescreen.hpp
@@ -84,6 +85,7 @@ CMakeFiles/graphics.dir/textbox.cpp.obj: ../textbox.cpp
 CMakeFiles/graphics.dir/textbox.cpp.obj: ../textbox.hpp
 CMakeFiles/graphics.dir/textbox.cpp.obj: ../widget.hpp
 
+CMakeFiles/graphics.dir/titlescreen.cpp.obj: ../board.hpp
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: ../button.hpp
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: ../checkbox.hpp
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: ../gamescreen.hpp
