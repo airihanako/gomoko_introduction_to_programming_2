@@ -3,7 +3,7 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_library(graphics graphics.cpp  button.hpp button.cpp checkbox.hpp checkbox.cpp textbox.cpp textbox.hpp widget.hpp widget.cpp titlescreen.hpp titlescreen.cpp gamescreen.hpp gamescreen.cpp)
+add_library(graphics graphics.cpp  button.hpp button.cpp checkbox.hpp checkbox.cpp textbox.cpp textbox.hpp widget.hpp widget.cpp titlescreen.hpp titlescreen.cpp gamescreen.hpp gamescreen.cpp board.hpp board.cpp)
 
 include_directories(include)
 link_directories(lib)

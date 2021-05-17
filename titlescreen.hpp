@@ -6,6 +6,7 @@
 
 struct TitleScreen : public Widget{
     TitleScreen(int x, int y, int sx, int sy);
+    bool playing = false;
 
     TextBox gameTitle =  TextBox(int(_sx/2 + 50), int(_sy*0.3), 50, 100, "Gomoku game");
     Button gameStart =  Button(50,50,50,50,"start game");

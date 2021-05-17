@@ -1,5 +1,6 @@
 #include "graphics.hpp"
 #include "titlescreen.hpp"
+#include "gamescreen.hpp"
 
 using namespace genv;
 
@@ -20,7 +21,12 @@ void TitleScreen::handle(genv::event ev) {
     gameTitle.handle(ev);
     gameStart.handle(ev);
     if (gameStart._pressed){
-
+        GameScreen gameScreen = GameScreen(_x,_y,_sx,_sy);
+        playing = true;
+        while (playing){
+            gameScreen.draw();
+            gameScreen.handle(ev);
+        }
     }
     exitGame.handle(ev);
     createdBy.handle(ev);
