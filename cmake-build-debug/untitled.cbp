@@ -138,6 +138,12 @@
 		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.hpp">
 			<Option target="graphics"/>
 		</Unit>
+		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.hpp">
+			<Option target="graphics"/>
+		</Unit>
 		<Unit filename="/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/graphics.cpp">
 			<Option target="graphics"/>
 		</Unit>

@@ -155,6 +155,19 @@ CMakeFiles/graphics.dir/titlescreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/titlescreen.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/titlescreen.cpp -o CMakeFiles/graphics.dir/titlescreen.cpp.s
 
+CMakeFiles/graphics.dir/gamescreen.cpp.o: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/gamescreen.cpp.o: ../gamescreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics.dir/gamescreen.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/gamescreen.cpp.o -c /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.cpp
+
+CMakeFiles/graphics.dir/gamescreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/gamescreen.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.cpp > CMakeFiles/graphics.dir/gamescreen.cpp.i
+
+CMakeFiles/graphics.dir/gamescreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/gamescreen.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/gamescreen.cpp -o CMakeFiles/graphics.dir/gamescreen.cpp.s
+
 # Object files for target graphics
 graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/graphics.cpp.o" \
@@ -162,7 +175,8 @@ graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/checkbox.cpp.o" \
 "CMakeFiles/graphics.dir/textbox.cpp.o" \
 "CMakeFiles/graphics.dir/widget.cpp.o" \
-"CMakeFiles/graphics.dir/titlescreen.cpp.o"
+"CMakeFiles/graphics.dir/titlescreen.cpp.o" \
+"CMakeFiles/graphics.dir/gamescreen.cpp.o"
 
 # External object files for target graphics
 graphics_EXTERNAL_OBJECTS =
@@ -173,9 +187,10 @@ libgraphics.a: CMakeFiles/graphics.dir/checkbox.cpp.o
 libgraphics.a: CMakeFiles/graphics.dir/textbox.cpp.o
 libgraphics.a: CMakeFiles/graphics.dir/widget.cpp.o
 libgraphics.a: CMakeFiles/graphics.dir/titlescreen.cpp.o
+libgraphics.a: CMakeFiles/graphics.dir/gamescreen.cpp.o
 libgraphics.a: CMakeFiles/graphics.dir/build.make
 libgraphics.a: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libgraphics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/graphics.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 

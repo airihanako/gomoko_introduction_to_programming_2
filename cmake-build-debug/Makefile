@@ -210,6 +210,33 @@ checkbox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/checkbox.cpp.s
 .PHONY : checkbox.cpp.s
 
+gamescreen.o: gamescreen.cpp.o
+
+.PHONY : gamescreen.o
+
+# target to build an object file
+gamescreen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/gamescreen.cpp.o
+.PHONY : gamescreen.cpp.o
+
+gamescreen.i: gamescreen.cpp.i
+
+.PHONY : gamescreen.i
+
+# target to preprocess a source file
+gamescreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/gamescreen.cpp.i
+.PHONY : gamescreen.cpp.i
+
+gamescreen.s: gamescreen.cpp.s
+
+.PHONY : gamescreen.s
+
+# target to generate assembly for a file
+gamescreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/gamescreen.cpp.s
+.PHONY : gamescreen.cpp.s
+
 graphics.o: graphics.cpp.o
 
 .PHONY : graphics.o
@@ -361,6 +388,9 @@ help:
 	@echo "... checkbox.o"
 	@echo "... checkbox.i"
 	@echo "... checkbox.s"
+	@echo "... gamescreen.o"
+	@echo "... gamescreen.i"
+	@echo "... gamescreen.s"
 	@echo "... graphics.o"
 	@echo "... graphics.i"
 	@echo "... graphics.s"
