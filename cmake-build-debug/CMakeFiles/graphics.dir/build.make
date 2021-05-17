@@ -90,17 +90,77 @@ CMakeFiles/graphics.dir/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/graphics.cpp.s"
 	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/graphics.cpp -o CMakeFiles/graphics.dir/graphics.cpp.s
 
+CMakeFiles/graphics.dir/button.cpp.o: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/button.cpp.o: ../button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics.dir/button.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/button.cpp.o -c /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/button.cpp
+
+CMakeFiles/graphics.dir/button.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/button.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/button.cpp > CMakeFiles/graphics.dir/button.cpp.i
+
+CMakeFiles/graphics.dir/button.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/button.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/button.cpp -o CMakeFiles/graphics.dir/button.cpp.s
+
+CMakeFiles/graphics.dir/checkbox.cpp.o: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/checkbox.cpp.o: ../checkbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics.dir/checkbox.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/checkbox.cpp.o -c /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.cpp
+
+CMakeFiles/graphics.dir/checkbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/checkbox.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.cpp > CMakeFiles/graphics.dir/checkbox.cpp.i
+
+CMakeFiles/graphics.dir/checkbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/checkbox.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.cpp -o CMakeFiles/graphics.dir/checkbox.cpp.s
+
+CMakeFiles/graphics.dir/textbox.cpp.o: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/textbox.cpp.o: ../textbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics.dir/textbox.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/textbox.cpp.o -c /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.cpp
+
+CMakeFiles/graphics.dir/textbox.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/textbox.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.cpp > CMakeFiles/graphics.dir/textbox.cpp.i
+
+CMakeFiles/graphics.dir/textbox.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/textbox.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.cpp -o CMakeFiles/graphics.dir/textbox.cpp.s
+
+CMakeFiles/graphics.dir/widget.cpp.o: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/widget.cpp.o: ../widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics.dir/widget.cpp.o"
+	/usr/bin/c++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/graphics.dir/widget.cpp.o -c /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp
+
+CMakeFiles/graphics.dir/widget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/widget.cpp.i"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp > CMakeFiles/graphics.dir/widget.cpp.i
+
+CMakeFiles/graphics.dir/widget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/widget.cpp.s"
+	/usr/bin/c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp -o CMakeFiles/graphics.dir/widget.cpp.s
+
 # Object files for target graphics
 graphics_OBJECTS = \
-"CMakeFiles/graphics.dir/graphics.cpp.o"
+"CMakeFiles/graphics.dir/graphics.cpp.o" \
+"CMakeFiles/graphics.dir/button.cpp.o" \
+"CMakeFiles/graphics.dir/checkbox.cpp.o" \
+"CMakeFiles/graphics.dir/textbox.cpp.o" \
+"CMakeFiles/graphics.dir/widget.cpp.o"
 
 # External object files for target graphics
 graphics_EXTERNAL_OBJECTS =
 
 libgraphics.a: CMakeFiles/graphics.dir/graphics.cpp.o
+libgraphics.a: CMakeFiles/graphics.dir/button.cpp.o
+libgraphics.a: CMakeFiles/graphics.dir/checkbox.cpp.o
+libgraphics.a: CMakeFiles/graphics.dir/textbox.cpp.o
+libgraphics.a: CMakeFiles/graphics.dir/widget.cpp.o
 libgraphics.a: CMakeFiles/graphics.dir/build.make
 libgraphics.a: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libgraphics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/graphics.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/graphics.dir/link.txt --verbose=$(VERBOSE)
 

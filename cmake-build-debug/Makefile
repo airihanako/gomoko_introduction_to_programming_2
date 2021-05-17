@@ -156,6 +156,60 @@ graphics/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/build
 .PHONY : graphics/fast
 
+button.o: button.cpp.o
+
+.PHONY : button.o
+
+# target to build an object file
+button.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/button.cpp.o
+.PHONY : button.cpp.o
+
+button.i: button.cpp.i
+
+.PHONY : button.i
+
+# target to preprocess a source file
+button.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/button.cpp.i
+.PHONY : button.cpp.i
+
+button.s: button.cpp.s
+
+.PHONY : button.s
+
+# target to generate assembly for a file
+button.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/button.cpp.s
+.PHONY : button.cpp.s
+
+checkbox.o: checkbox.cpp.o
+
+.PHONY : checkbox.o
+
+# target to build an object file
+checkbox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/checkbox.cpp.o
+.PHONY : checkbox.cpp.o
+
+checkbox.i: checkbox.cpp.i
+
+.PHONY : checkbox.i
+
+# target to preprocess a source file
+checkbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/checkbox.cpp.i
+.PHONY : checkbox.cpp.i
+
+checkbox.s: checkbox.cpp.s
+
+.PHONY : checkbox.s
+
+# target to generate assembly for a file
+checkbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/checkbox.cpp.s
+.PHONY : checkbox.cpp.s
+
 graphics.o: graphics.cpp.o
 
 .PHONY : graphics.o
@@ -210,6 +264,60 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+textbox.o: textbox.cpp.o
+
+.PHONY : textbox.o
+
+# target to build an object file
+textbox.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/textbox.cpp.o
+.PHONY : textbox.cpp.o
+
+textbox.i: textbox.cpp.i
+
+.PHONY : textbox.i
+
+# target to preprocess a source file
+textbox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/textbox.cpp.i
+.PHONY : textbox.cpp.i
+
+textbox.s: textbox.cpp.s
+
+.PHONY : textbox.s
+
+# target to generate assembly for a file
+textbox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/textbox.cpp.s
+.PHONY : textbox.cpp.s
+
+widget.o: widget.cpp.o
+
+.PHONY : widget.o
+
+# target to build an object file
+widget.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/widget.cpp.o
+.PHONY : widget.cpp.o
+
+widget.i: widget.cpp.i
+
+.PHONY : widget.i
+
+# target to preprocess a source file
+widget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/widget.cpp.i
+.PHONY : widget.cpp.i
+
+widget.s: widget.cpp.s
+
+.PHONY : widget.s
+
+# target to generate assembly for a file
+widget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/widget.cpp.s
+.PHONY : widget.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -220,12 +328,24 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... graphics"
 	@echo "... untitled"
+	@echo "... button.o"
+	@echo "... button.i"
+	@echo "... button.s"
+	@echo "... checkbox.o"
+	@echo "... checkbox.i"
+	@echo "... checkbox.s"
 	@echo "... graphics.o"
 	@echo "... graphics.i"
 	@echo "... graphics.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... textbox.o"
+	@echo "... textbox.i"
+	@echo "... textbox.s"
+	@echo "... widget.o"
+	@echo "... widget.i"
+	@echo "... widget.s"
 .PHONY : help
 
 

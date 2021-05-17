@@ -96,12 +96,12 @@ clean: CMakeFiles/graphics.dir/clean
 CMakeFiles/untitled.dir/all: CMakeFiles/graphics.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target untitled"
 .PHONY : CMakeFiles/untitled.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 8
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/untitled.dir/rule
@@ -123,12 +123,12 @@ CMakeFiles/untitled.dir/clean:
 CMakeFiles/graphics.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/graphics.dir/build.make CMakeFiles/graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target graphics"
 .PHONY : CMakeFiles/graphics.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/graphics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/graphics.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/graphics.dir/rule

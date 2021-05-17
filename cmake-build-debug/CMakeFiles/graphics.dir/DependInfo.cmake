@@ -4,7 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/button.cpp" "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/button.cpp.o"
+  "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/checkbox.cpp" "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/checkbox.cpp.o"
   "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/graphics.cpp" "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/graphics.cpp.o"
+  "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/textbox.cpp" "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/textbox.cpp.o"
+  "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/widget.cpp" "/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/cmake-build-debug/CMakeFiles/graphics.dir/widget.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

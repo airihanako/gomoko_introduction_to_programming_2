@@ -3,4 +3,6 @@
 
 CMakeFiles/untitled.dir/main.cpp.o: ../graphics.hpp
 CMakeFiles/untitled.dir/main.cpp.o: ../main.cpp
+CMakeFiles/untitled.dir/main.cpp.o: ../textbox.hpp
+CMakeFiles/untitled.dir/main.cpp.o: ../widget.hpp
 
