@@ -236,6 +236,33 @@ checkbox.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/checkbox.cpp.s
 .PHONY : checkbox.cpp.s
 
+endscreen.obj: endscreen.cpp.obj
+
+.PHONY : endscreen.obj
+
+# target to build an object file
+endscreen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/endscreen.cpp.obj
+.PHONY : endscreen.cpp.obj
+
+endscreen.i: endscreen.cpp.i
+
+.PHONY : endscreen.i
+
+# target to preprocess a source file
+endscreen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/endscreen.cpp.i
+.PHONY : endscreen.cpp.i
+
+endscreen.s: endscreen.cpp.s
+
+.PHONY : endscreen.s
+
+# target to generate assembly for a file
+endscreen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/endscreen.cpp.s
+.PHONY : endscreen.cpp.s
+
 gamescreen.obj: gamescreen.cpp.obj
 
 .PHONY : gamescreen.obj
@@ -417,6 +444,9 @@ help:
 	@echo ... checkbox.obj
 	@echo ... checkbox.i
 	@echo ... checkbox.s
+	@echo ... endscreen.obj
+	@echo ... endscreen.i
+	@echo ... endscreen.s
 	@echo ... gamescreen.obj
 	@echo ... gamescreen.i
 	@echo ... gamescreen.s

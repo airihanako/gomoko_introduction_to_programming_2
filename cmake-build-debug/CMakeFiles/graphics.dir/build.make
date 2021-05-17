@@ -188,6 +188,20 @@ CMakeFiles/graphics.dir/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/board.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\board.cpp -o CMakeFiles\graphics.dir\board.cpp.s
 
+CMakeFiles/graphics.dir/endscreen.cpp.obj: CMakeFiles/graphics.dir/flags.make
+CMakeFiles/graphics.dir/endscreen.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
+CMakeFiles/graphics.dir/endscreen.cpp.obj: ../endscreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/graphics.dir/endscreen.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\endscreen.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\endscreen.cpp
+
+CMakeFiles/graphics.dir/endscreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/endscreen.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\endscreen.cpp > CMakeFiles\graphics.dir\endscreen.cpp.i
+
+CMakeFiles/graphics.dir/endscreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/endscreen.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\endscreen.cpp -o CMakeFiles\graphics.dir\endscreen.cpp.s
+
 # Object files for target graphics
 graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/graphics.cpp.obj" \
@@ -197,7 +211,8 @@ graphics_OBJECTS = \
 "CMakeFiles/graphics.dir/widget.cpp.obj" \
 "CMakeFiles/graphics.dir/titlescreen.cpp.obj" \
 "CMakeFiles/graphics.dir/gamescreen.cpp.obj" \
-"CMakeFiles/graphics.dir/board.cpp.obj"
+"CMakeFiles/graphics.dir/board.cpp.obj" \
+"CMakeFiles/graphics.dir/endscreen.cpp.obj"
 
 # External object files for target graphics
 graphics_EXTERNAL_OBJECTS =
@@ -210,9 +225,10 @@ libgraphics.a: CMakeFiles/graphics.dir/widget.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/titlescreen.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/gamescreen.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/board.cpp.obj
+libgraphics.a: CMakeFiles/graphics.dir/endscreen.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/build.make
 libgraphics.a: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libgraphics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\graphics.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graphics.dir\link.txt --verbose=$(VERBOSE)
 
