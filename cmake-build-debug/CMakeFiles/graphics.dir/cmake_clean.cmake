@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/graphics.dir/button.cpp.obj"
   "CMakeFiles/graphics.dir/checkbox.cpp.obj"
   "CMakeFiles/graphics.dir/endscreen.cpp.obj"
+  "CMakeFiles/graphics.dir/gamemaster.cpp.obj"
   "CMakeFiles/graphics.dir/gamescreen.cpp.obj"
   "CMakeFiles/graphics.dir/graphics.cpp.obj"
   "CMakeFiles/graphics.dir/textbox.cpp.obj"

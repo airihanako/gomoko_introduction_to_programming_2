@@ -263,6 +263,33 @@ endscreen.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/endscreen.cpp.s
 .PHONY : endscreen.cpp.s
 
+gamemaster.obj: gamemaster.cpp.obj
+
+.PHONY : gamemaster.obj
+
+# target to build an object file
+gamemaster.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/gamemaster.cpp.obj
+.PHONY : gamemaster.cpp.obj
+
+gamemaster.i: gamemaster.cpp.i
+
+.PHONY : gamemaster.i
+
+# target to preprocess a source file
+gamemaster.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/gamemaster.cpp.i
+.PHONY : gamemaster.cpp.i
+
+gamemaster.s: gamemaster.cpp.s
+
+.PHONY : gamemaster.s
+
+# target to generate assembly for a file
+gamemaster.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\graphics.dir\build.make CMakeFiles/graphics.dir/gamemaster.cpp.s
+.PHONY : gamemaster.cpp.s
+
 gamescreen.obj: gamescreen.cpp.obj
 
 .PHONY : gamescreen.obj
@@ -447,6 +474,9 @@ help:
 	@echo ... endscreen.obj
 	@echo ... endscreen.i
 	@echo ... endscreen.s
+	@echo ... gamemaster.obj
+	@echo ... gamemaster.i
+	@echo ... gamemaster.s
 	@echo ... gamescreen.obj
 	@echo ... gamescreen.i
 	@echo ... gamescreen.s

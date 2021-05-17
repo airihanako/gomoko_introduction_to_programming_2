@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/button.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/button.cpp.obj"
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/checkbox.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/checkbox.cpp.obj"
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/endscreen.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/endscreen.cpp.obj"
+  "C:/Users/Airi/Documents/1MA2/Progok/gomi/gamemaster.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/gamemaster.cpp.obj"
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/gamescreen.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/gamescreen.cpp.obj"
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/graphics.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/graphics.cpp.obj"
   "C:/Users/Airi/Documents/1MA2/Progok/gomi/textbox.cpp" "C:/Users/Airi/Documents/1MA2/Progok/gomi/cmake-build-debug/CMakeFiles/graphics.dir/textbox.cpp.obj"

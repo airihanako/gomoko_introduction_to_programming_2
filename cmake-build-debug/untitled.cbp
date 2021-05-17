@@ -150,6 +150,12 @@
 		<Unit filename="C:/Users/Airi/Documents/1MA2/Progok/gomi/endscreen.hpp">
 			<Option target="graphics"/>
 		</Unit>
+		<Unit filename="C:/Users/Airi/Documents/1MA2/Progok/gomi/gamemaster.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/Airi/Documents/1MA2/Progok/gomi/gamemaster.hpp">
+			<Option target="graphics"/>
+		</Unit>
 		<Unit filename="C:/Users/Airi/Documents/1MA2/Progok/gomi/gamescreen.cpp">
 			<Option target="graphics"/>
 		</Unit>
