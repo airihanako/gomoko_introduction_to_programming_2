@@ -53,19 +53,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\hatva\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\hatva\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\203.7148.70\bin\cmake\win\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko
+CMAKE_SOURCE_DIR = C:\Users\Airi\Documents\1MA2\Progok\gomi
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/graphics.dir/depend.make
@@ -79,114 +79,114 @@ include CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/graphics.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/graphics.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/graphics.cpp.obj: ../graphics.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/graphics.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\graphics.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\graphics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/graphics.dir/graphics.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\graphics.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\graphics.cpp
 
 CMakeFiles/graphics.dir/graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/graphics.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\graphics.cpp > CMakeFiles\graphics.dir\graphics.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\graphics.cpp > CMakeFiles\graphics.dir\graphics.cpp.i
 
 CMakeFiles/graphics.dir/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/graphics.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\graphics.cpp -o CMakeFiles\graphics.dir\graphics.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\graphics.cpp -o CMakeFiles\graphics.dir\graphics.cpp.s
 
 CMakeFiles/graphics.dir/button.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/button.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/button.cpp.obj: ../button.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics.dir/button.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\button.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\button.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/graphics.dir/button.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\button.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\button.cpp
 
 CMakeFiles/graphics.dir/button.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/button.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\button.cpp > CMakeFiles\graphics.dir\button.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\button.cpp > CMakeFiles\graphics.dir\button.cpp.i
 
 CMakeFiles/graphics.dir/button.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/button.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\button.cpp -o CMakeFiles\graphics.dir\button.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\button.cpp -o CMakeFiles\graphics.dir\button.cpp.s
 
 CMakeFiles/graphics.dir/checkbox.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/checkbox.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/checkbox.cpp.obj: ../checkbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics.dir/checkbox.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\checkbox.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\checkbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/graphics.dir/checkbox.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\checkbox.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\checkbox.cpp
 
 CMakeFiles/graphics.dir/checkbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/checkbox.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\checkbox.cpp > CMakeFiles\graphics.dir\checkbox.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\checkbox.cpp > CMakeFiles\graphics.dir\checkbox.cpp.i
 
 CMakeFiles/graphics.dir/checkbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/checkbox.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\checkbox.cpp -o CMakeFiles\graphics.dir\checkbox.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\checkbox.cpp -o CMakeFiles\graphics.dir\checkbox.cpp.s
 
 CMakeFiles/graphics.dir/textbox.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/textbox.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/textbox.cpp.obj: ../textbox.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics.dir/textbox.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\textbox.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\textbox.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/graphics.dir/textbox.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\textbox.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\textbox.cpp
 
 CMakeFiles/graphics.dir/textbox.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/textbox.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\textbox.cpp > CMakeFiles\graphics.dir\textbox.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\textbox.cpp > CMakeFiles\graphics.dir\textbox.cpp.i
 
 CMakeFiles/graphics.dir/textbox.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/textbox.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\textbox.cpp -o CMakeFiles\graphics.dir\textbox.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\textbox.cpp -o CMakeFiles\graphics.dir\textbox.cpp.s
 
 CMakeFiles/graphics.dir/widget.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/widget.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/widget.cpp.obj: ../widget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics.dir/widget.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\widget.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\widget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/graphics.dir/widget.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\widget.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\widget.cpp
 
 CMakeFiles/graphics.dir/widget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/widget.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\widget.cpp > CMakeFiles\graphics.dir\widget.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\widget.cpp > CMakeFiles\graphics.dir\widget.cpp.i
 
 CMakeFiles/graphics.dir/widget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/widget.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\widget.cpp -o CMakeFiles\graphics.dir\widget.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\widget.cpp -o CMakeFiles\graphics.dir\widget.cpp.s
 
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/titlescreen.cpp.obj: ../titlescreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics.dir/titlescreen.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\titlescreen.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\titlescreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/graphics.dir/titlescreen.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\titlescreen.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\titlescreen.cpp
 
 CMakeFiles/graphics.dir/titlescreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/titlescreen.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\titlescreen.cpp > CMakeFiles\graphics.dir\titlescreen.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\titlescreen.cpp > CMakeFiles\graphics.dir\titlescreen.cpp.i
 
 CMakeFiles/graphics.dir/titlescreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/titlescreen.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\titlescreen.cpp -o CMakeFiles\graphics.dir\titlescreen.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\titlescreen.cpp -o CMakeFiles\graphics.dir\titlescreen.cpp.s
 
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/gamescreen.cpp.obj: ../gamescreen.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics.dir/gamescreen.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\gamescreen.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\gamescreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/graphics.dir/gamescreen.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\gamescreen.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\gamescreen.cpp
 
 CMakeFiles/graphics.dir/gamescreen.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/gamescreen.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\gamescreen.cpp > CMakeFiles\graphics.dir\gamescreen.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\gamescreen.cpp > CMakeFiles\graphics.dir\gamescreen.cpp.i
 
 CMakeFiles/graphics.dir/gamescreen.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/gamescreen.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\gamescreen.cpp -o CMakeFiles\graphics.dir\gamescreen.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\gamescreen.cpp -o CMakeFiles\graphics.dir\gamescreen.cpp.s
 
 CMakeFiles/graphics.dir/board.cpp.obj: CMakeFiles/graphics.dir/flags.make
 CMakeFiles/graphics.dir/board.cpp.obj: CMakeFiles/graphics.dir/includes_CXX.rsp
 CMakeFiles/graphics.dir/board.cpp.obj: ../board.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics.dir/board.cpp.obj"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\board.cpp.obj -c C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\board.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/graphics.dir/board.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\graphics.dir\board.cpp.obj -c C:\Users\Airi\Documents\1MA2\Progok\gomi\board.cpp
 
 CMakeFiles/graphics.dir/board.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/graphics.dir/board.cpp.i"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\board.cpp > CMakeFiles\graphics.dir\board.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Airi\Documents\1MA2\Progok\gomi\board.cpp > CMakeFiles\graphics.dir\board.cpp.i
 
 CMakeFiles/graphics.dir/board.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/graphics.dir/board.cpp.s"
-	C:\PROGRA~1\MINGW-~1\X86_64~1.0-W\mingw64\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\board.cpp -o CMakeFiles\graphics.dir\board.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Airi\Documents\1MA2\Progok\gomi\board.cpp -o CMakeFiles\graphics.dir\board.cpp.s
 
 # Object files for target graphics
 graphics_OBJECTS = \
@@ -212,7 +212,7 @@ libgraphics.a: CMakeFiles/graphics.dir/gamescreen.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/board.cpp.obj
 libgraphics.a: CMakeFiles/graphics.dir/build.make
 libgraphics.a: CMakeFiles/graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libgraphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX static library libgraphics.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\graphics.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\graphics.dir\link.txt --verbose=$(VERBOSE)
 
@@ -226,6 +226,6 @@ CMakeFiles/graphics.dir/clean:
 .PHONY : CMakeFiles/graphics.dir/clean
 
 CMakeFiles/graphics.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug C:\Users\hatva\Documents\egyemizmus\elmeleti_nyelveszet\2_felev\bevprog2\beadando_3\gomoko\cmake-build-debug\CMakeFiles\graphics.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Airi\Documents\1MA2\Progok\gomi C:\Users\Airi\Documents\1MA2\Progok\gomi C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug C:\Users\Airi\Documents\1MA2\Progok\gomi\cmake-build-debug\CMakeFiles\graphics.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/graphics.dir/depend
 
