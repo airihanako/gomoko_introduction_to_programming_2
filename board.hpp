@@ -13,7 +13,7 @@ struct Board : Widget{
 
     void draw() override;
 
-    void handle(genv::event ev) override;
+    void handle(genv::event ev, bool player);
 };
 
 

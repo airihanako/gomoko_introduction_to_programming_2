@@ -7,6 +7,7 @@
 
 struct GameScreen : Widget{
     GameScreen(int x, int y, int sx, int sy);
+    bool player = false;
 
     TextBox turnText = TextBox(0,0,100,50,"White");
     TextBox turnAnnounceText = TextBox(100,0,200,50,"'s turn");
