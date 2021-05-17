@@ -4,7 +4,7 @@ Board::Board(int x, int y, int sx, int sy) : Widget(x, y, sx, sy) {
     for(int i = 0; i < 15;i++) {
         grid.emplace_back(std::vector<CheckBox>());
         for(int j = 0; j< 15;j++){
-            grid.at(i).emplace_back(CheckBox(10*i, 10*j, 10,10));
+            grid.at(i).emplace_back(CheckBox(int(_sx/15)*i+_x, int(_sy/15)*j+_y, int(_sx/15),int(_sy/15)));
         }
     }
 
