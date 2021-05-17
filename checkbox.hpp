@@ -10,7 +10,7 @@ struct CheckBox : Widget{
     int b = 255;
     CheckBox(int x, int y, int sx, int sy);
     void draw() ;
-    void handle(genv::event ev,bool player);
+    bool handle(genv::event ev,bool player);
     void check(bool player);
 };
 
