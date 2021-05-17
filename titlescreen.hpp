@@ -9,7 +9,7 @@ struct TitleScreen : public Widget{
     bool playing = false;
 
     TextBox gameTitle =  TextBox(int(_sx/2 + 50), int(_sy*0.3), 50, 100, "Gomoku game");
-    Button gameStart =  Button(50,50,50,50,"start game");
+    Button gameStart =  Button(50,50,100,50,"start game");
     Button exitGame =  Button(100,100,100,100,"Exit game");
     TextBox createdBy =  TextBox(400,400,50,50,"Created by Orsi Szondi");
 
