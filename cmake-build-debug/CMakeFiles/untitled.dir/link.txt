@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/untitled.dir/main.cpp.o  -o untitled.exe -Wl,--out-implib,libuntitled.dll.a -Wl,--major-image-version,0,--minor-image-version,0   -L/cygdrive/c/Users/hatva/Documents/egyemizmus/elmeleti_nyelveszet/2_felev/bevprog2/beadando_3/gomoko/lib  libgraphics.a -lSDL2 -lSDL2 -lSDL2main -lSDL2_ttf -lSDL2_ttf 
