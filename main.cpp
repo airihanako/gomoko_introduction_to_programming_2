@@ -18,9 +18,12 @@ int main()
         if (mainScreen->playing){
             gameScreen->draw();
             gameScreen->handle(ev);
-        } else{
+        } else if (gameScreen->gameWon){
             endScreen->draw();
             endScreen->handle(ev);
+        } else{
+            mainScreen->draw();
+            mainScreen->handle(ev);
         }
     }
     return 0;

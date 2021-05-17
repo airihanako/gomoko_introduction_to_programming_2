@@ -16,6 +16,9 @@ void EndScreen::draw() {
 void EndScreen::handle(genv::event ev) {
     tryAgain.handle(ev);
     quitButton.handle(ev);
+    if (quitButton._pressed){
+        exit(0);
+    }
     thanksMessage.handle(ev);
 }
 

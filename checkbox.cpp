@@ -25,7 +25,7 @@ bool CheckBox::handle(genv::event ev, bool player) {
         CheckBox::check(player);
         return true;
     }
-    return false
+    return false;
 }
 
 void CheckBox::check(bool player) {

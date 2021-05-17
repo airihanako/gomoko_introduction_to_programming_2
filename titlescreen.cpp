@@ -22,5 +22,8 @@ void TitleScreen::handle(genv::event ev) {
         playing = true;
     }
     exitGame.handle(ev);
+    if (exitGame._pressed){
+        exit(0);
+    }
     createdBy.handle(ev);
 }

@@ -3,10 +3,14 @@
 #include "vector"
 
 struct GameMaster{
-    int tableRepresentation[15][15] = {{0}};
+    std::vector<std::vector<int>> tableRepresentation = std::vector<std::vector<int>>(15);
     GameMaster();
 
-    int chechwin();
+    int checkWin();
+
+    void itemCheck(int x, int y, bool player);
+
+    void loadRepresentation(std::vector<std::vector<int>> repr);
 
 };
 
